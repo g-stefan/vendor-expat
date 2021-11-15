@@ -1,2 +1,2 @@
-expat-2.2.9,https://github.com/libexpat/libexpat/releases
+expat-2.4.1,https://github.com/libexpat/libexpat/releases
 

@@ -23,7 +23,7 @@ del /F /Q archive\%PROJECT%-%VERSION%.7z goto:eof
 rem Source
 pushd archive
 set VENDOR=%PROJECT%-%VERSION%
-set WEB_LINK=https://github.com/libexpat/libexpat/releases/download/R_2_2_9/expat-2.2.9.tar.gz
+set WEB_LINK=https://github.com/libexpat/libexpat/releases/download/R_2_4_1/expat-2.4.1.tar.gz
 if not exist %VENDOR%.tar.gz curl --insecure --location %WEB_LINK% --output %VENDOR%.tar.gz
 7z x %VENDOR%.tar.gz -so | 7z x -aoa -si -ttar -o.
 del /F /Q %VENDOR%.tar.gz
