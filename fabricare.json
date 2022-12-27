@@ -2,7 +2,7 @@
 	"project": {
 		"name" : "expat",
 		"type" : "xyo-cpp",
-		"SPDX-License-Identifier": "LicenseRef-",
+		"SPDX-License-Identifier": "MIT",
 		"sourceLink" : "https://github.com/libexpat/libexpat/releases",
 		"version" : "2.4.8"
 	}
