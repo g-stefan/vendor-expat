@@ -26,7 +26,7 @@ Shell.removeFile("archive/" + Project.vendor + ".7z");
 
 // Source
 runInPath("archive", function() {
-	webLink = "https://github.com/libexpat/libexpat/releases/download/R_2_4_8/expat-2.4.8.tar.gz";
+	webLink = "https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.gz";
 	if (!Shell.fileExists(Project.vendor + ".tar.gz")) {
 		exitIf(Shell.system("curl --insecure --location " + webLink + " --output " + Project.vendor + ".tar.gz"));
 	};

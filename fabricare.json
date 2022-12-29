@@ -4,6 +4,9 @@
 		"type" : "xyo-cpp",
 		"SPDX-License-Identifier": "MIT",
 		"sourceLink" : "https://github.com/libexpat/libexpat/releases",
-		"version" : "2.4.8"
+		"version" : "2.5.0",
+		"hasRelease" : true,
+		"noVersion" : true,
+		"githubRelease" : true
 	}
 }
