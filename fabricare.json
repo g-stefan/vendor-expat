@@ -1,13 +1,18 @@
 {
-	"project": {
-		"name" : "expat",
+	"solution": {
+		"name" : "vendor-expat",
 		"type" : "xyo-cpp",
-		"SPDX-License-Identifier": "MIT",
-		"sourceLink" : "https://github.com/libexpat/libexpat/releases",
-		"version" : "2.5.0",
-		"hasRelease" : true,
-		"noVersion" : true,
-		"githubRelease" : true,
-		"githubRepository" : "vendor-expat"
+		"projects": [
+			{
+				"name" : "expat",
+				"SPDX-License-Identifier": "MIT",
+				"sourceLink" : "https://github.com/libexpat/libexpat/releases",
+				"version" : "2.5.0",
+				"noVersion" : true
+			}
+		],
+		"releaseName" : "expat",
+		"hasGithub" : true
 	}
 }
+
