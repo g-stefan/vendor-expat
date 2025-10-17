@@ -7,7 +7,7 @@
 				"name" : "expat",
 				"SPDX-License-Identifier": "MIT",
 				"sourceLink" : "https://github.com/libexpat/libexpat/releases",
-				"version" : "2.5.0",
+				"version" : "2.7.3",
 				"noVersion" : true
 			}
 		],
